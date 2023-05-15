@@ -23,7 +23,7 @@ class RecipeCard extends HTMLElement {
 
 
     // A4. TODO - Insert all of the styles from cardTemplate.html into the <style> element you just made
-    styleEl.innerHTML = `* {
+    style.innerHTML = `* {
       font-family: sans-serif;
       margin: 0;
       padding: 0;
