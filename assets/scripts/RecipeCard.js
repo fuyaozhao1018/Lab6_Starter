@@ -19,7 +19,7 @@ class RecipeCard extends HTMLElement {
 
     let style = document.createElement("style");
 
-    document.head.appendChild(style);
+    //document.head.appendChild(style);
 
 
     // A4. TODO - Insert all of the styles from cardTemplate.html into the <style> element you just made
