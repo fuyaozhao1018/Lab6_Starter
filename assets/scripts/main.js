@@ -42,7 +42,7 @@ function addRecipesToDocument(recipes) {
   //            create a <recipe-card> element for each one, and populate
   //            each <recipe-card> with that recipe data using element.data = ...
   //            Append each element to <main>
-  for (let recipe of recipes) {
+  for(let recipe of recipes){
     let  recipeCard  = document.createElement('recipe-card');
     recipeCard.data = recipe;
     main.appendChild(recipeCard);
@@ -59,7 +59,7 @@ function saveRecipesToStorage(recipes) {
   // B1. TODO - Complete the functionality as described in this function
   //            header. It is possible in only a single line, but should
   //            be no more than a few lines.
-  //window.localStorage.setItem('recipes', JSON.stringify(recipes));
+  window.localStorage.setItem('recipes', JSON.stringify(recipes));
 
 }
 
